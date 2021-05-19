@@ -2,6 +2,6 @@
   "name": "digital-signing",
   "version": "1.0.0",
   "description": "Sample usage of crypto for document signing",
-  "main": "sign.js",
+  "main": "main.js",
   "author": "Roman"
 }
