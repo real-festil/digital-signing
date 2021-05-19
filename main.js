@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 const fs = require('fs');
 
-exports.sign = function (private_key, doc) {
+exports.signFile = function (private_key, doc) {
   const signer = crypto.createSign('RSA-SHA256');
   signer.write(doc);
   signer.end();
@@ -11,7 +11,7 @@ exports.sign = function (private_key, doc) {
   return signature;
 }
 
-exports.verify = function (public_key, signature, doc) {
+exports.verifyFile = function (public_key, signature, doc) {
   const verifier = crypto.createVerify('RSA-SHA256');
   verifier.write(doc);
   verifier.end();

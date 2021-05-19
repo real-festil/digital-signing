@@ -1,7 +1,7 @@
 {
   "name": "digital-signing",
-  "version": "1.0.0",
-  "description": "Sample usage of crypto for document signing",
+  "version": "1.0.1",
+  "description": "Sign and verify document with digital signing",
   "main": "main.js",
   "author": "Roman",
   "dependencies": {},
