@@ -1,10 +1,12 @@
 {
   "name": "digital-signing",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sign and verify document with digital signing",
   "main": "main.js",
   "author": "Roman",
-  "dependencies": {},
+  "dependencies": {
+    "p12-pem": "^1.0.4"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

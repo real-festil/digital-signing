@@ -2,3 +2,14 @@
 # yarn lockfile v1
 
 
+node-forge@^0.9.1:
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.9.2.tgz#b35a44c28889b2ea55cabf8c79e3563f9676190a"
+  integrity sha512-naKSScof4Wn+aoHU6HBsifh92Zeicm1GDQKd1vp3Y/kOi8ub0DozCa9KpvYNCXslFHYRmLNiqRopGdTGwNLpNw==
+
+p12-pem@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/p12-pem/-/p12-pem-1.0.4.tgz#d22eaf5b0dc0d04642bbec1afba2d549a67dfc7a"
+  integrity sha512-aUN6DGxgtqHKcSKQpEV1sinJAIckQsI8UWWdSm/Y0lKTz8nInRc5RTKkz4ZRqAi60lON1FoRvDSDknas4/pCeg==
+  dependencies:
+    node-forge "^0.9.1"
