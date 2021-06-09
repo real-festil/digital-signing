@@ -1,6 +1,6 @@
 {
   "name": "digital-signing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sign and verify document with digital signing",
   "main": "main.js",
   "author": "Roman",
